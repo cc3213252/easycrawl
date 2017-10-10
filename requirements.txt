@@ -2,4 +2,6 @@ scrapy
 pymongo
 pybloom-live
 celery
-fabric
+Fabric==1.11.1
+gunicorn==19.6.0
+redis
