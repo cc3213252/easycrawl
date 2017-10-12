@@ -1,0 +1,24 @@
+<div>###这是一封自动发送的邮件###</div>
+<div>###共有数据条数：({{ count }})###</div>
+<br>
+<div>
+    {% for item in items %}
+     <div>
+         <span><b>ID:</b></span>
+         <span>{{ item['_id'] }}</span>
+
+         <span><b>标题:</b></span>
+         <span>{{ item['text'] }}</span>
+
+
+                  |
+         <span><b>作者:</b></span>
+         <span>{{ item['author'] }}</span>
+
+
+          <span><b>作者链接:</b></span>
+          <a href="{{ item['author_full_url'] }}">点击跳转</a>
+     </div>
+    <div style="margin-top:20px"></div>
+    {% end %}
+</div>

@@ -1,6 +1,6 @@
 {
-  "stop_service_cmd": "ls",
-  "start_service_cmd": "cp ./supervisor/supervisor.ini ~/supervisor/supervisord.conf.d/easycrawl.conf",
+  "stop_service_cmd": "sh ./stop_service.sh",
+  "start_service_cmd": "ls",
   "validate_service_cmd": "true",
   "dev-hosts": ["yudan@118.89.200.60"],
   "app_name": "easycrawl",

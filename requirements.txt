@@ -5,3 +5,5 @@ celery
 Fabric==1.11.1
 gunicorn==19.6.0
 redis
+tornado==4.5.0
+tenacity==4.3.0
